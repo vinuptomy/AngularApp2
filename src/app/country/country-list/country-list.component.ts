@@ -39,7 +39,7 @@ export class CountryListComponent implements OnInit {
   performFilter(filterBy: string): ICountry[] {
     filterBy = filterBy.toLocaleLowerCase();
     return this.countries.filter((country: ICountry) =>
-    country.ISO3Code.toLocaleLowerCase().indexOf(filterBy) !== -1);
+    country.alpha3Code.toLocaleLowerCase().indexOf(filterBy) !== -1);
   }
 
   //sample function to test component interaction

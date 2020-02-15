@@ -40,20 +40,20 @@
             <tr *ngFor='let country of filteredCountries'>
               <td>
                 <img *ngIf='showImage'
-                     [src]='country.flagImageUrl'
-                     [title]='country.CountryName'
+                     [src]='country.flag'
+                     [title]='country.name'
                      [style.width.px]='imageWidth'
                      [style.margin.px]='imageMargin'>
               </td>
               <td>
-                <a [routerLink]="['/country', country.ISO3Code]">
-                  {{ country.ISO3Code }}
+                <a [routerLink]="['/country', country.alpha3Code]">
+                  {{ country.alpha3Code }}
                 </a>
               </td>
-              <td>{{ country.CountryName | uppercase }}</td>
-              <td>{{ country.Capital }}</td>
-              <td>{{ country.Region | uppercase }}</td>
-              <td>{{ country.Population }}</td>
+              <td>{{ country.name | uppercase }}</td>
+              <td>{{ country.capital }}</td>
+              <td>{{ country.region | uppercase }}</td>
+              <td>{{ country.population }}</td>
             <!-- 
             <td>
                             <pm-star [rating]='product.starRating'

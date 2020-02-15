@@ -1,8 +1,8 @@
 export interface ICountry {
-    ISO3Code: string;
-    CountryName: string;
-    Capital: string;
-    Population: string;    
-    Region: string;    
-    flagImageUrl: string;
+  alpha3Code: string;
+    name: string;
+    capital: string;
+    population: string;    
+    region: string;    
+    flag: string;
   }

@@ -33,7 +33,7 @@ export class CountryService {
   getCountry(isoCode: string): Observable<ICountry | undefined> {
     return this.getCountries()
       .pipe(
-        map((countries: ICountry[]) => countries.find(c => c.ISO3Code === isoCode))
+        map((countries: ICountry[]) => countries.find(c => c.alpha3Code === isoCode))
       );
   }
 
