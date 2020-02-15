@@ -4,23 +4,32 @@ import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 
 import { CountryListComponent } from './country-list/country-list.component';
+import { CountryDetailComponent } from './country-detail/country-detail.component';
 
 
 
 
 @NgModule({
   declarations: [
-    CountryListComponent 
+    
+    CountryDetailComponent 
     
   ],
   imports: [
-    CommonModule,
-    RouterModule,
-    FormsModule
+    CommonModule,    
+    FormsModule,
+    RouterModule.forChild([
+      { path: 'country', component: CountryListComponent },
+      {
+        path: 'country/:alpha3Code',       
+        component: CountryDetailComponent
+      }
+    ]),
 
   ],
   exports: [
-    CountryListComponent
+    
+    CountryDetailComponent
   ]
 })
 export class CountryModule { }

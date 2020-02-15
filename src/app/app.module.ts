@@ -6,12 +6,14 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CountryListComponent } from './country/country-list/country-list.component';
 
 import { CountryModule } from './country/country.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CountryListComponent
     
   ],
   imports: [
@@ -19,7 +21,12 @@ import { CountryModule } from './country/country.module';
     AppRoutingModule,
     HttpClientModule,    
     FormsModule,
-    RouterModule,
+    RouterModule.forRoot([
+      
+      { path: 'country', component: CountryListComponent  },
+      { path: '', redirectTo: 'country', pathMatch: 'full' },
+      { path: '**', redirectTo: 'country', pathMatch: 'full' }
+    ]),
     CountryModule
 
   ],
