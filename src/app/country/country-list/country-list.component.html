@@ -24,10 +24,7 @@
           <thead>
             <tr>
               <th>
-                <button class='btn btn-primary'
-                        (click)='toggleImage()'>
-                  {{showImage ? 'Hide' : 'Show'}} Image
-                </button>
+               Flag
               </th>
               <th>Code</th>
               <th>Name</th>
@@ -39,18 +36,19 @@
           <tbody>
             <tr *ngFor='let country of filteredCountries'>
               <td>
-                <img *ngIf='showImage'
+                <img 
                      [src]='country.flag'
                      [title]='country.name'
                      [style.width.px]='imageWidth'
                      [style.margin.px]='imageMargin'>
               </td>
-              <td>
-                <a [routerLink]="['/country', country.alpha3Code]">
-                  {{ country.alpha3Code }}
-                </a>
+              <td>{{ country.alpha3Code }}              
               </td>
-              <td>{{ country.name | uppercase }}</td>
+              <td>
+                <a [routerLink]="['/country', country.alpha3Code]">                                 
+                  {{ country.name | uppercase }}
+                </a>
+            </td>
               <td>{{ country.capital }}</td>
               <td>{{ country.region | uppercase }}</td>
               <td>{{ country.population | number }}</td>

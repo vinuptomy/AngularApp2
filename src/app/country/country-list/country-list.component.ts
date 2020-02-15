@@ -13,7 +13,7 @@ export class CountryListComponent implements OnInit {
   pageTitle = ''
   imageWidth = 50;
   imageMargin = 2;
-  showImage = false;
+ // showImage = true;
   errorMessage = '';
  // listFiltersample= 'vinu';
   constructor(private countryService: CountryService) {
@@ -39,12 +39,12 @@ export class CountryListComponent implements OnInit {
   performFilter(filterBy: string): ICountry[] {
     filterBy = filterBy.toLocaleLowerCase();
     return this.countries.filter((country: ICountry) =>
-    country.alpha3Code.toLocaleLowerCase().indexOf(filterBy) !== -1);
+    country.name.toLocaleLowerCase().indexOf(filterBy) !== -1);
   }
 
   //sample function to test component interaction
   toggleImage(): void {
-    this.showImage = !this.showImage;
+   // this.showImage = !this.showImage;
   }
 
   ngOnInit() :void {
