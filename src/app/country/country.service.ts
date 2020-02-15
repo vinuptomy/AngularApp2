@@ -16,8 +16,8 @@ export class CountryService {
   
   // If using Stackblitz, replace the url with this line
   // because Stackblitz can't find the api folder.
-  // private productUrl = 'assets/country/country.json';
-  private countryUrl = 'api/country/country.json';
+   private countryUrl = 'assets/country/country.json';
+  //private countryUrl = 'api/country/country.json';
 
   constructor(private http: HttpClient) { }
 // in real world scenario we can implement retry pattern with RxJs observable 

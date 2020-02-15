@@ -1,21 +1,26 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
-import { CountryListComponent } from './country-list/country-list.component';
-import { CountryDetailComponent } from './country-detail/country-detail.component';
+import { FormsModule } from '@angular/forms';
 
+import { CountryListComponent } from './country-list/country-list.component';
 
 
 
 
 @NgModule({
   declarations: [
-    CountryListComponent, 
-    CountryDetailComponent
+    CountryListComponent 
+    
   ],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    FormsModule
+
+  ],
+  exports: [
+    CountryListComponent
   ]
 })
 export class CountryModule { }
