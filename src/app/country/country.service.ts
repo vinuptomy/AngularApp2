@@ -16,9 +16,12 @@ export class CountryService {
   
   // If using Stackblitz, replace the url with this line
   // because Stackblitz can't find the api folder.
+
+
    private countryUrl = 'assets/country/country.json';
   //private countryUrl = 'api/country/country.json';
  // private countryUrl = 'https://restcountries.eu/rest/v2/all?fields=name;capital;flag;population;region;alpha3code';
+ //private countryUrl = 'https://restcountries.eu/rest/v2/all?fields=name;capital;flag;population;region;alpha3Code;subregion;nativeName';
 
   constructor(private http: HttpClient) { }
 // in real world scenario we can implement retry pattern with RxJs observable 
@@ -34,7 +37,9 @@ export class CountryService {
   getCountry(isoCode: string): Observable<ICountry | undefined> {
     return this.getCountries()
       .pipe(
-        map((countries: ICountry[]) => countries.find(c => c.alpha3Code === isoCode))
+        map((countries: ICountry[]) => countries.find(c => c.alpha3Code === isoCode))   
+    
+        
       );
   }
 
@@ -53,5 +58,6 @@ export class CountryService {
     console.error(errorMessage);
     return throwError(errorMessage);
   }
-
+ 
 }
+

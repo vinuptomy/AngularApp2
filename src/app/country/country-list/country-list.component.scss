@@ -1,3 +1,9 @@
 thead {
     color: #337AB7;
   }
+
+  
+  
+  tr[ng-reflect-router-link] {
+    cursor: pointer;
+  }

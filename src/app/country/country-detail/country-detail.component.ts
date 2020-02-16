@@ -30,6 +30,16 @@ export class CountryDetailComponent implements OnInit {
     }
   }
 
+    /**
+     * 
+    getCountry(isoCode: string) {
+    this.countryService.getCountry(isoCode).subscribe({
+      next: country => this.country = country,
+      error: err => this.errorMessage = err
+    });
+  }
+
+  */
 
   getCountry(isoCode: string) {
     this.countryService.getCountry(isoCode).subscribe({

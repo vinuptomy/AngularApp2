@@ -1,642 +1,545 @@
 [
   {
+    "currencies": [
+      {
+        "code": "AFN",
+        "name": "Afghan afghani",
+        "symbol": "؋"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "ps",
+        "iso639_2": "pus",
+        "name": "Pashto",
+        "nativeName": "پښتو"
+      },
+      {
+        "iso639_1": "uz",
+        "iso639_2": "uzb",
+        "name": "Uzbek",
+        "nativeName": "Oʻzbek"
+      },
+      {
+        "iso639_1": "tk",
+        "iso639_2": "tuk",
+        "name": "Turkmen",
+        "nativeName": "Türkmen"
+      }
+    ],
     "flag": "https://restcountries.eu/data/afg.svg",
     "name": "Afghanistan",
+    "topLevelDomain": [
+      ".af"
+    ],
     "alpha3Code": "AFG",
     "capital": "Kabul",
     "region": "Asia",
     "subregion": "Southern Asia",
     "population": 27657145,
+    "borders": [
+      "IRN",
+      "PAK",
+      "TKM",
+      "UZB",
+      "TJK",
+      "CHN"
+    ],
     "nativeName": "افغانستان"
   },
   {
+    "currencies": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "sv",
+        "iso639_2": "swe",
+        "name": "Swedish",
+        "nativeName": "svenska"
+      }
+    ],
     "flag": "https://restcountries.eu/data/ala.svg",
     "name": "Åland Islands",
+    "topLevelDomain": [
+      ".ax"
+    ],
     "alpha3Code": "ALA",
     "capital": "Mariehamn",
     "region": "Europe",
     "subregion": "Northern Europe",
     "population": 28875,
+    "borders": [
+      
+    ],
     "nativeName": "Åland"
   },
   {
+    "currencies": [
+      {
+        "code": "ALL",
+        "name": "Albanian lek",
+        "symbol": "L"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "sq",
+        "iso639_2": "sqi",
+        "name": "Albanian",
+        "nativeName": "Shqip"
+      }
+    ],
     "flag": "https://restcountries.eu/data/alb.svg",
     "name": "Albania",
+    "topLevelDomain": [
+      ".al"
+    ],
     "alpha3Code": "ALB",
     "capital": "Tirana",
     "region": "Europe",
     "subregion": "Southern Europe",
     "population": 2886026,
+    "borders": [
+      "MNE",
+      "GRC",
+      "MKD",
+      "KOS"
+    ],
     "nativeName": "Shqipëria"
   },
   {
+    "currencies": [
+      {
+        "code": "DZD",
+        "name": "Algerian dinar",
+        "symbol": "د.ج"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "ar",
+        "iso639_2": "ara",
+        "name": "Arabic",
+        "nativeName": "العربية"
+      }
+    ],
     "flag": "https://restcountries.eu/data/dza.svg",
     "name": "Algeria",
+    "topLevelDomain": [
+      ".dz"
+    ],
     "alpha3Code": "DZA",
     "capital": "Algiers",
     "region": "Africa",
     "subregion": "Northern Africa",
     "population": 40400000,
+    "borders": [
+      "TUN",
+      "LBY",
+      "NER",
+      "ESH",
+      "MRT",
+      "MLI",
+      "MAR"
+    ],
     "nativeName": "الجزائر"
   },
   {
+    "currencies": [
+      {
+        "code": "USD",
+        "name": "United State Dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "name": "English",
+        "nativeName": "English"
+      },
+      {
+        "iso639_1": "sm",
+        "iso639_2": "smo",
+        "name": "Samoan",
+        "nativeName": "gagana fa'a Samoa"
+      }
+    ],
     "flag": "https://restcountries.eu/data/asm.svg",
     "name": "American Samoa",
+    "topLevelDomain": [
+      ".as"
+    ],
     "alpha3Code": "ASM",
     "capital": "Pago Pago",
     "region": "Oceania",
     "subregion": "Polynesia",
     "population": 57100,
+    "borders": [
+      
+    ],
     "nativeName": "American Samoa"
   },
   {
+    "currencies": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "ca",
+        "iso639_2": "cat",
+        "name": "Catalan",
+        "nativeName": "català"
+      }
+    ],
     "flag": "https://restcountries.eu/data/and.svg",
     "name": "Andorra",
+    "topLevelDomain": [
+      ".ad"
+    ],
     "alpha3Code": "AND",
     "capital": "Andorra la Vella",
     "region": "Europe",
     "subregion": "Southern Europe",
     "population": 78014,
+    "borders": [
+      "FRA",
+      "ESP"
+    ],
     "nativeName": "Andorra"
   },
   {
+    "currencies": [
+      {
+        "code": "AOA",
+        "name": "Angolan kwanza",
+        "symbol": "Kz"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "pt",
+        "iso639_2": "por",
+        "name": "Portuguese",
+        "nativeName": "Português"
+      }
+    ],
     "flag": "https://restcountries.eu/data/ago.svg",
     "name": "Angola",
+    "topLevelDomain": [
+      ".ao"
+    ],
     "alpha3Code": "AGO",
     "capital": "Luanda",
     "region": "Africa",
     "subregion": "Middle Africa",
     "population": 25868000,
+    "borders": [
+      "COG",
+      "COD",
+      "ZMB",
+      "NAM"
+    ],
     "nativeName": "Angola"
   },
   {
+    "currencies": [
+      {
+        "code": "XCD",
+        "name": "East Caribbean dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "name": "English",
+        "nativeName": "English"
+      }
+    ],
     "flag": "https://restcountries.eu/data/aia.svg",
     "name": "Anguilla",
+    "topLevelDomain": [
+      ".ai"
+    ],
     "alpha3Code": "AIA",
     "capital": "The Valley",
     "region": "Americas",
     "subregion": "Caribbean",
     "population": 13452,
+    "borders": [
+      
+    ],
     "nativeName": "Anguilla"
   },
   {
+    "currencies": [
+      {
+        "code": "AUD",
+        "name": "Australian dollar",
+        "symbol": "$"
+      },
+      {
+        "code": "GBP",
+        "name": "British pound",
+        "symbol": "£"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "name": "English",
+        "nativeName": "English"
+      },
+      {
+        "iso639_1": "ru",
+        "iso639_2": "rus",
+        "name": "Russian",
+        "nativeName": "Русский"
+      }
+    ],
     "flag": "https://restcountries.eu/data/ata.svg",
     "name": "Antarctica",
+    "topLevelDomain": [
+      ".aq"
+    ],
     "alpha3Code": "ATA",
     "capital": "",
     "region": "Polar",
     "subregion": "",
     "population": 1000,
+    "borders": [
+      
+    ],
     "nativeName": "Antarctica"
   },
   {
+    "currencies": [
+      {
+        "code": "XCD",
+        "name": "East Caribbean dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "name": "English",
+        "nativeName": "English"
+      }
+    ],
     "flag": "https://restcountries.eu/data/atg.svg",
     "name": "Antigua and Barbuda",
+    "topLevelDomain": [
+      ".ag"
+    ],
     "alpha3Code": "ATG",
     "capital": "Saint John's",
     "region": "Americas",
     "subregion": "Caribbean",
     "population": 86295,
+    "borders": [
+      
+    ],
     "nativeName": "Antigua and Barbuda"
   },
   {
+    "currencies": [
+      {
+        "code": "ARS",
+        "name": "Argentine peso",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "name": "Spanish",
+        "nativeName": "Español"
+      },
+      {
+        "iso639_1": "gn",
+        "iso639_2": "grn",
+        "name": "Guaraní",
+        "nativeName": "Avañe'ẽ"
+      }
+    ],
     "flag": "https://restcountries.eu/data/arg.svg",
     "name": "Argentina",
+    "topLevelDomain": [
+      ".ar"
+    ],
     "alpha3Code": "ARG",
     "capital": "Buenos Aires",
     "region": "Americas",
     "subregion": "South America",
     "population": 43590400,
+    "borders": [
+      "BOL",
+      "BRA",
+      "CHL",
+      "PRY",
+      "URY"
+    ],
     "nativeName": "Argentina"
   },
   {
+    "currencies": [
+      {
+        "code": "AMD",
+        "name": "Armenian dram"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "hy",
+        "iso639_2": "hye",
+        "name": "Armenian",
+        "nativeName": "Հայերեն"
+      },
+      {
+        "iso639_1": "ru",
+        "iso639_2": "rus",
+        "name": "Russian",
+        "nativeName": "Русский"
+      }
+    ],
     "flag": "https://restcountries.eu/data/arm.svg",
     "name": "Armenia",
+    "topLevelDomain": [
+      ".am"
+    ],
     "alpha3Code": "ARM",
     "capital": "Yerevan",
     "region": "Asia",
     "subregion": "Western Asia",
     "population": 2994400,
+    "borders": [
+      "AZE",
+      "GEO",
+      "IRN",
+      "TUR"
+    ],
     "nativeName": "Հայաստան"
   },
   {
+    "currencies": [
+      {
+        "code": "AWG",
+        "name": "Aruban florin",
+        "symbol": "ƒ"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "nl",
+        "iso639_2": "nld",
+        "name": "Dutch",
+        "nativeName": "Nederlands"
+      },
+      {
+        "iso639_1": "pa",
+        "iso639_2": "pan",
+        "name": "(Eastern) Punjabi",
+        "nativeName": "ਪੰਜਾਬੀ"
+      }
+    ],
     "flag": "https://restcountries.eu/data/abw.svg",
     "name": "Aruba",
+    "topLevelDomain": [
+      ".aw"
+    ],
     "alpha3Code": "ABW",
     "capital": "Oranjestad",
     "region": "Americas",
     "subregion": "Caribbean",
     "population": 107394,
+    "borders": [
+      
+    ],
     "nativeName": "Aruba"
   },
   {
+    "currencies": [
+      {
+        "code": "AUD",
+        "name": "Australian dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "name": "English",
+        "nativeName": "English"
+      }
+    ],
     "flag": "https://restcountries.eu/data/aus.svg",
     "name": "Australia",
+    "topLevelDomain": [
+      ".au"
+    ],
     "alpha3Code": "AUS",
     "capital": "Canberra",
     "region": "Oceania",
     "subregion": "Australia and New Zealand",
     "population": 24117360,
+    "borders": [
+      
+    ],
     "nativeName": "Australia"
   },
   {
+    "currencies": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "de",
+        "iso639_2": "deu",
+        "name": "German",
+        "nativeName": "Deutsch"
+      }
+    ],
     "flag": "https://restcountries.eu/data/aut.svg",
     "name": "Austria",
+    "topLevelDomain": [
+      ".at"
+    ],
     "alpha3Code": "AUT",
     "capital": "Vienna",
     "region": "Europe",
     "subregion": "Western Europe",
     "population": 8725931,
+    "borders": [
+      "CZE",
+      "DEU",
+      "HUN",
+      "ITA",
+      "LIE",
+      "SVK",
+      "SVN",
+      "CHE"
+    ],
     "nativeName": "Österreich"
-  },
-  {
-    "flag": "https://restcountries.eu/data/aze.svg",
-    "name": "Azerbaijan",
-    "alpha3Code": "AZE",
-    "capital": "Baku",
-    "region": "Asia",
-    "subregion": "Western Asia",
-    "population": 9730500,
-    "nativeName": "Azərbaycan"
-  },
-  {
-    "flag": "https://restcountries.eu/data/bhs.svg",
-    "name": "Bahamas",
-    "alpha3Code": "BHS",
-    "capital": "Nassau",
-    "region": "Americas",
-    "subregion": "Caribbean",
-    "population": 378040,
-    "nativeName": "Bahamas"
-  },
-  {
-    "flag": "https://restcountries.eu/data/bhr.svg",
-    "name": "Bahrain",
-    "alpha3Code": "BHR",
-    "capital": "Manama",
-    "region": "Asia",
-    "subregion": "Western Asia",
-    "population": 1404900,
-    "nativeName": "‏البحرين"
-  },
-  {
-    "flag": "https://restcountries.eu/data/bgd.svg",
-    "name": "Bangladesh",
-    "alpha3Code": "BGD",
-    "capital": "Dhaka",
-    "region": "Asia",
-    "subregion": "Southern Asia",
-    "population": 161006790,
-    "nativeName": "Bangladesh"
-  },
-  {
-    "flag": "https://restcountries.eu/data/brb.svg",
-    "name": "Barbados",
-    "alpha3Code": "BRB",
-    "capital": "Bridgetown",
-    "region": "Americas",
-    "subregion": "Caribbean",
-    "population": 285000,
-    "nativeName": "Barbados"
-  },
-  {
-    "flag": "https://restcountries.eu/data/blr.svg",
-    "name": "Belarus",
-    "alpha3Code": "BLR",
-    "capital": "Minsk",
-    "region": "Europe",
-    "subregion": "Eastern Europe",
-    "population": 9498700,
-    "nativeName": "Белару́сь"
-  },
-  {
-    "flag": "https://restcountries.eu/data/bel.svg",
-    "name": "Belgium",
-    "alpha3Code": "BEL",
-    "capital": "Brussels",
-    "region": "Europe",
-    "subregion": "Western Europe",
-    "population": 11319511,
-    "nativeName": "België"
-  },
-  {
-    "flag": "https://restcountries.eu/data/blz.svg",
-    "name": "Belize",
-    "alpha3Code": "BLZ",
-    "capital": "Belmopan",
-    "region": "Americas",
-    "subregion": "Central America",
-    "population": 370300,
-    "nativeName": "Belize"
-  },
-  {
-    "flag": "https://restcountries.eu/data/ben.svg",
-    "name": "Benin",
-    "alpha3Code": "BEN",
-    "capital": "Porto-Novo",
-    "region": "Africa",
-    "subregion": "Western Africa",
-    "population": 10653654,
-    "nativeName": "Bénin"
-  },
-  {
-    "flag": "https://restcountries.eu/data/bmu.svg",
-    "name": "Bermuda",
-    "alpha3Code": "BMU",
-    "capital": "Hamilton",
-    "region": "Americas",
-    "subregion": "Northern America",
-    "population": 61954,
-    "nativeName": "Bermuda"
-  },
-  {
-    "flag": "https://restcountries.eu/data/btn.svg",
-    "name": "Bhutan",
-    "alpha3Code": "BTN",
-    "capital": "Thimphu",
-    "region": "Asia",
-    "subregion": "Southern Asia",
-    "population": 775620,
-    "nativeName": "ʼbrug-yul"
-  },
-  {
-    "flag": "https://restcountries.eu/data/bol.svg",
-    "name": "Bolivia (Plurinational State of)",
-    "alpha3Code": "BOL",
-    "capital": "Sucre",
-    "region": "Americas",
-    "subregion": "South America",
-    "population": 10985059,
-    "nativeName": "Bolivia"
-  },
-  {
-    "flag": "https://restcountries.eu/data/bes.svg",
-    "name": "Bonaire, Sint Eustatius and Saba",
-    "alpha3Code": "BES",
-    "capital": "Kralendijk",
-    "region": "Americas",
-    "subregion": "Caribbean",
-    "population": 17408,
-    "nativeName": "Bonaire"
-  },
-  {
-    "flag": "https://restcountries.eu/data/bih.svg",
-    "name": "Bosnia and Herzegovina",
-    "alpha3Code": "BIH",
-    "capital": "Sarajevo",
-    "region": "Europe",
-    "subregion": "Southern Europe",
-    "population": 3531159,
-    "nativeName": "Bosna i Hercegovina"
-  },
-  {
-    "flag": "https://restcountries.eu/data/bwa.svg",
-    "name": "Botswana",
-    "alpha3Code": "BWA",
-    "capital": "Gaborone",
-    "region": "Africa",
-    "subregion": "Southern Africa",
-    "population": 2141206,
-    "nativeName": "Botswana"
-  },
-  {
-    "flag": "https://restcountries.eu/data/bvt.svg",
-    "name": "Bouvet Island",
-    "alpha3Code": "BVT",
-    "capital": "",
-    "region": "",
-    "subregion": "",
-    "population": 0,
-    "nativeName": "Bouvetøya"
-  },
-  {
-    "flag": "https://restcountries.eu/data/bra.svg",
-    "name": "Brazil",
-    "alpha3Code": "BRA",
-    "capital": "Brasília",
-    "region": "Americas",
-    "subregion": "South America",
-    "population": 206135893,
-    "nativeName": "Brasil"
-  },
-  {
-    "flag": "https://restcountries.eu/data/iot.svg",
-    "name": "British Indian Ocean Territory",
-    "alpha3Code": "IOT",
-    "capital": "Diego Garcia",
-    "region": "Africa",
-    "subregion": "Eastern Africa",
-    "population": 3000,
-    "nativeName": "British Indian Ocean Territory"
-  },
-  {
-    "flag": "https://restcountries.eu/data/umi.svg",
-    "name": "United States Minor Outlying Islands",
-    "alpha3Code": "UMI",
-    "capital": "",
-    "region": "Americas",
-    "subregion": "Northern America",
-    "population": 300,
-    "nativeName": "United States Minor Outlying Islands"
-  },
-  {
-    "flag": "https://restcountries.eu/data/vgb.svg",
-    "name": "Virgin Islands (British)",
-    "alpha3Code": "VGB",
-    "capital": "Road Town",
-    "region": "Americas",
-    "subregion": "Caribbean",
-    "population": 28514,
-    "nativeName": "British Virgin Islands"
-  },
-  {
-    "flag": "https://restcountries.eu/data/vir.svg",
-    "name": "Virgin Islands (U.S.)",
-    "alpha3Code": "VIR",
-    "capital": "Charlotte Amalie",
-    "region": "Americas",
-    "subregion": "Caribbean",
-    "population": 114743,
-    "nativeName": "Virgin Islands of the United States"
-  },
-  {
-    "flag": "https://restcountries.eu/data/brn.svg",
-    "name": "Brunei Darussalam",
-    "alpha3Code": "BRN",
-    "capital": "Bandar Seri Begawan",
-    "region": "Asia",
-    "subregion": "South-Eastern Asia",
-    "population": 411900,
-    "nativeName": "Negara Brunei Darussalam"
-  },
-  {
-    "flag": "https://restcountries.eu/data/bgr.svg",
-    "name": "Bulgaria",
-    "alpha3Code": "BGR",
-    "capital": "Sofia",
-    "region": "Europe",
-    "subregion": "Eastern Europe",
-    "population": 7153784,
-    "nativeName": "България"
-  },
-  {
-    "flag": "https://restcountries.eu/data/bfa.svg",
-    "name": "Burkina Faso",
-    "alpha3Code": "BFA",
-    "capital": "Ouagadougou",
-    "region": "Africa",
-    "subregion": "Western Africa",
-    "population": 19034397,
-    "nativeName": "Burkina Faso"
-  },
-  {
-    "flag": "https://restcountries.eu/data/bdi.svg",
-    "name": "Burundi",
-    "alpha3Code": "BDI",
-    "capital": "Bujumbura",
-    "region": "Africa",
-    "subregion": "Eastern Africa",
-    "population": 10114505,
-    "nativeName": "Burundi"
-  },
-  {
-    "flag": "https://restcountries.eu/data/khm.svg",
-    "name": "Cambodia",
-    "alpha3Code": "KHM",
-    "capital": "Phnom Penh",
-    "region": "Asia",
-    "subregion": "South-Eastern Asia",
-    "population": 15626444,
-    "nativeName": "Kâmpŭchéa"
-  },
-  {
-    "flag": "https://restcountries.eu/data/cmr.svg",
-    "name": "Cameroon",
-    "alpha3Code": "CMR",
-    "capital": "Yaoundé",
-    "region": "Africa",
-    "subregion": "Middle Africa",
-    "population": 22709892,
-    "nativeName": "Cameroon"
-  },
-  {
-    "flag": "https://restcountries.eu/data/can.svg",
-    "name": "Canada",
-    "alpha3Code": "CAN",
-    "capital": "Ottawa",
-    "region": "Americas",
-    "subregion": "Northern America",
-    "population": 36155487,
-    "nativeName": "Canada"
-  },
-  {
-    "flag": "https://restcountries.eu/data/cpv.svg",
-    "name": "Cabo Verde",
-    "alpha3Code": "CPV",
-    "capital": "Praia",
-    "region": "Africa",
-    "subregion": "Western Africa",
-    "population": 531239,
-    "nativeName": "Cabo Verde"
-  },
-  {
-    "flag": "https://restcountries.eu/data/cym.svg",
-    "name": "Cayman Islands",
-    "alpha3Code": "CYM",
-    "capital": "George Town",
-    "region": "Americas",
-    "subregion": "Caribbean",
-    "population": 58238,
-    "nativeName": "Cayman Islands"
-  },
-  {
-    "flag": "https://restcountries.eu/data/caf.svg",
-    "name": "Central African Republic",
-    "alpha3Code": "CAF",
-    "capital": "Bangui",
-    "region": "Africa",
-    "subregion": "Middle Africa",
-    "population": 4998000,
-    "nativeName": "Ködörösêse tî Bêafrîka"
-  },
-  {
-    "flag": "https://restcountries.eu/data/tcd.svg",
-    "name": "Chad",
-    "alpha3Code": "TCD",
-    "capital": "N'Djamena",
-    "region": "Africa",
-    "subregion": "Middle Africa",
-    "population": 14497000,
-    "nativeName": "Tchad"
-  },
-  {
-    "flag": "https://restcountries.eu/data/chl.svg",
-    "name": "Chile",
-    "alpha3Code": "CHL",
-    "capital": "Santiago",
-    "region": "Americas",
-    "subregion": "South America",
-    "population": 18191900,
-    "nativeName": "Chile"
-  },
-  {
-    "flag": "https://restcountries.eu/data/chn.svg",
-    "name": "China",
-    "alpha3Code": "CHN",
-    "capital": "Beijing",
-    "region": "Asia",
-    "subregion": "Eastern Asia",
-    "population": 1377422166,
-    "nativeName": "中国"
-  },
-  {
-    "flag": "https://restcountries.eu/data/cxr.svg",
-    "name": "Christmas Island",
-    "alpha3Code": "CXR",
-    "capital": "Flying Fish Cove",
-    "region": "Oceania",
-    "subregion": "Australia and New Zealand",
-    "population": 2072,
-    "nativeName": "Christmas Island"
-  },
-  {
-    "flag": "https://restcountries.eu/data/cck.svg",
-    "name": "Cocos (Keeling) Islands",
-    "alpha3Code": "CCK",
-    "capital": "West Island",
-    "region": "Oceania",
-    "subregion": "Australia and New Zealand",
-    "population": 550,
-    "nativeName": "Cocos (Keeling) Islands"
-  },
-  {
-    "flag": "https://restcountries.eu/data/col.svg",
-    "name": "Colombia",
-    "alpha3Code": "COL",
-    "capital": "Bogotá",
-    "region": "Americas",
-    "subregion": "South America",
-    "population": 48759958,
-    "nativeName": "Colombia"
-  },
-  {
-    "flag": "https://restcountries.eu/data/com.svg",
-    "name": "Comoros",
-    "alpha3Code": "COM",
-    "capital": "Moroni",
-    "region": "Africa",
-    "subregion": "Eastern Africa",
-    "population": 806153,
-    "nativeName": "Komori"
-  },
-  {
-    "flag": "https://restcountries.eu/data/cog.svg",
-    "name": "Congo",
-    "alpha3Code": "COG",
-    "capital": "Brazzaville",
-    "region": "Africa",
-    "subregion": "Middle Africa",
-    "population": 4741000,
-    "nativeName": "République du Congo"
-  },
-  {
-    "flag": "https://restcountries.eu/data/cod.svg",
-    "name": "Congo (Democratic Republic of the)",
-    "alpha3Code": "COD",
-    "capital": "Kinshasa",
-    "region": "Africa",
-    "subregion": "Middle Africa",
-    "population": 85026000,
-    "nativeName": "République démocratique du Congo"
-  },
-  {
-    "flag": "https://restcountries.eu/data/cok.svg",
-    "name": "Cook Islands",
-    "alpha3Code": "COK",
-    "capital": "Avarua",
-    "region": "Oceania",
-    "subregion": "Polynesia",
-    "population": 18100,
-    "nativeName": "Cook Islands"
-  },
-  {
-    "flag": "https://restcountries.eu/data/cri.svg",
-    "name": "Costa Rica",
-    "alpha3Code": "CRI",
-    "capital": "San José",
-    "region": "Americas",
-    "subregion": "Central America",
-    "population": 4890379,
-    "nativeName": "Costa Rica"
-  },
-  {
-    "flag": "https://restcountries.eu/data/hrv.svg",
-    "name": "Croatia",
-    "alpha3Code": "HRV",
-    "capital": "Zagreb",
-    "region": "Europe",
-    "subregion": "Southern Europe",
-    "population": 4190669,
-    "nativeName": "Hrvatska"
-  },
-  {
-    "flag": "https://restcountries.eu/data/cub.svg",
-    "name": "Cuba",
-    "alpha3Code": "CUB",
-    "capital": "Havana",
-    "region": "Americas",
-    "subregion": "Caribbean",
-    "population": 11239004,
-    "nativeName": "Cuba"
-  },
-  {
-    "flag": "https://restcountries.eu/data/cuw.svg",
-    "name": "Curaçao",
-    "alpha3Code": "CUW",
-    "capital": "Willemstad",
-    "region": "Americas",
-    "subregion": "Caribbean",
-    "population": 154843,
-    "nativeName": "Curaçao"
-  },
-  {
-    "flag": "https://restcountries.eu/data/cyp.svg",
-    "name": "Cyprus",
-    "alpha3Code": "CYP",
-    "capital": "Nicosia",
-    "region": "Europe",
-    "subregion": "Southern Europe",
-    "population": 847000,
-    "nativeName": "Κύπρος"
-  },
-  {
-    "flag": "https://restcountries.eu/data/cze.svg",
-    "name": "Czech Republic",
-    "alpha3Code": "CZE",
-    "capital": "Prague",
-    "region": "Europe",
-    "subregion": "Eastern Europe",
-    "population": 10558524,
-    "nativeName": "Česká republika"
-  },
-  {
-    "flag": "https://restcountries.eu/data/dnk.svg",
-    "name": "Denmark",
-    "alpha3Code": "DNK",
-    "capital": "Copenhagen",
-    "region": "Europe",
-    "subregion": "Northern Europe",
-    "population": 5717014,
-    "nativeName": "Danmark"
-  },
-  {
-    "flag": "https://restcountries.eu/data/dji.svg",
-    "name": "Djibouti",
-    "alpha3Code": "DJI",
-    "capital": "Djibouti",
-    "region": "Africa",
-    "subregion": "Eastern Africa",
-    "population": 900000,
-    "nativeName": "Djibouti"
   }
 ]

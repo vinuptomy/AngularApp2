@@ -34,7 +34,9 @@
             </tr>
           </thead>
           <tbody>
-            <tr *ngFor='let country of filteredCountries'>
+            <tr *ngFor='let country of filteredCountries'  
+            [routerLink]="['/country', country.alpha3Code]">
+            
               <td>
                 <img 
                      [src]='country.flag'
@@ -44,21 +46,13 @@
               </td>
               <td>{{ country.alpha3Code }}              
               </td>
-              <td>
-                <a [routerLink]="['/country', country.alpha3Code]">                                 
-                  {{ country.name | uppercase }}
-                </a>
+              <td>                                                 
+                  {{ country.name | uppercase }}                
             </td>
               <td>{{ country.capital }}</td>
               <td>{{ country.region | uppercase }}</td>
               <td>{{ country.population | number }}</td>
-            <!-- 
-            <td>
-                            <pm-star [rating]='product.starRating'
-                                     (ratingClicked)='onRatingClicked($event)'>
-                            </pm-star>
-                          </td>
-            -->
+            
               
             </tr>
           </tbody>
