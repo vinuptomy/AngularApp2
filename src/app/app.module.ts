@@ -6,7 +6,7 @@ import { FormsModule } from '@angular/forms';
 
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatCardModule, MatButtonModule, MatSelectModule, MatIconModule,  MatFormFieldModule, MatInputModule,MatGridListModule } from '@angular/material';
+import { MatCardModule, MatButtonModule, MatToolbarModule,MatSelectModule, MatIconModule,MatDividerModule,  MatFormFieldModule, MatInputModule,MatGridListModule } from '@angular/material';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -25,8 +25,10 @@ import { CountryModule } from './country/country.module';
      MatIconModule,
      MatGridListModule, 
      MatFormFieldModule, 
+     MatToolbarModule,
       MatInputModule,
     MatCardModule, 
+    MatDividerModule,
     MatButtonModule, 
     MatSelectModule,
     BrowserModule,

@@ -1,8 +1,31 @@
 
 
 
+  <mat-toolbar class="topGrid">
+  
+    <div class="divSearch">
+    <mat-icon class="iconSearch" matPrefix >search</mat-icon>
+    <input class="inputSearch" matInput placeholder="Search for a country..." [(ngModel)]='listFilter' value="">
+    </div>
 
-<mat-grid-list cols="4" rowHeight="1:1.4"   gutterSize="20px"  >
+
+    <div class="divRegion">        
+        <mat-form-field>
+          <mat-label>Filter by Region</mat-label>
+          <mat-select  [(ngModel)]= 'listFilter_region' >
+            <mat-option value="AllRegion">All Region</mat-option>
+            <mat-option value="Africa">Africa</mat-option>
+            <mat-option value="Americas">America</mat-option>
+            <mat-option value="Asia">Asia</mat-option>
+            <mat-option value="Europe">Europe</mat-option>
+            <mat-option value="Oceania">Oceania</mat-option>
+          </mat-select>
+        </mat-form-field>
+    </div>
+
+  </mat-toolbar>
+
+<mat-grid-list class="countryCardlist" cols="4" rowHeight="1:1.4"   gutterSize="20px"  >
   <mat-grid-tile 
   *ngFor='let country of filteredCountries'>
 

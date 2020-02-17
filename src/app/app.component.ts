@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Country-List';
-
+  showDarkTheme = false;
   theme = 'my-light-theme';
   constructor(
     
@@ -21,4 +21,17 @@ export class AppComponent {
   onThemeChange() {
     //this.overlayContainer.themeClass = this.theme;
   }
+
+  toggleTheme(): void {
+    this.showDarkTheme = !this.showDarkTheme;
+
+    if(this.showDarkTheme)
+    {
+      this.theme = 'my-dark-theme';
+    }
+    if (!this.showDarkTheme){
+      this.theme = 'my-light-theme';
+    }
+  }
+
 }

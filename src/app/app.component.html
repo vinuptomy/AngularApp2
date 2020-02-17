@@ -1,21 +1,26 @@
 
 <div [class]="theme">
 
-
-<nav class='navbar navbar-expand navbar-light bg-light'>
-    <a class='navbar-brand'>{{pageTitle}}</a>
-    <ul class='nav nav-pills'>
-      <li><a class='nav-link' routerLinkActive='active' [routerLink]="['/country']">Where in the world?</a></li>      
-    </ul>
-</nav>
-<mat-card>
-  <mat-select placeholder="Theme" [(ngModel)]="theme"
-  (change)="onThemeChange()">
-    <mat-option value="my-light-theme">Light Theme</mat-option>
-    <mat-option value="my-dark-theme">Dark Theme</mat-option>
-  </mat-select>
-</mat-card>
-
+<mat-toolbar class="navbar">
+<div>
+<span> <img class ="logo" src="./assets/images/broadcomlogo.png" 
+  alt="Broadcom Logo"> </span>
+<span routerLinkActive='active' [routerLink]="['/country']" >Where in the world?</span>
+</div>
+<div>
+ <!-- <button mat-button>Dark Theme</button> --> 
+ 
+ <button  mat-raised-button 
+ (click)='toggleTheme()'>
+ <i class="material-icons">
+  brightness_3
+  </i>
+{{showDarkTheme ? 'Light ' : 'Dark '}} Mode
+</button>
+  
+</div>
+</mat-toolbar>
+<mat-divider></mat-divider>
 <div class='container'>
   <router-outlet></router-outlet>
 </div>

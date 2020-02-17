@@ -20,6 +20,21 @@ export class CountryListComponent implements OnInit {
 
   }
 
+
+
+  //Property to set filter by region selection
+  _listFilter_region ='';
+ 
+
+  get listFilter_region(): string {
+    return this._listFilter_region;
+  }
+
+  set listFilter_region(value: string) {
+    this._listFilter_region = value;
+    this.filteredCountries = this.listFilter_region ? this.performFilter(this.listFilter,this.listFilter_region) : this.countries;
+    
+  }
 // property to set filter list collection
 
   _listFilter = '';
@@ -28,7 +43,7 @@ export class CountryListComponent implements OnInit {
   }
   set listFilter(value: string) {
     this._listFilter = value;
-    this.filteredCountries = this.listFilter ? this.performFilter(this.listFilter) : this.countries;
+    this.filteredCountries = this.listFilter ? this.performFilter(this.listFilter,this.listFilter_region) : this.countries;
   }
 
   filteredCountries: ICountry[] = [];
@@ -36,16 +51,26 @@ export class CountryListComponent implements OnInit {
 
   // filter country list method
 
-  performFilter(filterBy: string): ICountry[] {
+  performFilter(filterBy: string,filterByRegion:string): ICountry[] {
+
     filterBy = filterBy.toLocaleLowerCase();
+    filterByRegion = filterByRegion.toLocaleLowerCase();
+
+    if (filterByRegion == "allregion"){
+
     return this.countries.filter((country: ICountry) =>
-    country.name.toLocaleLowerCase().indexOf(filterBy) !== -1);
+    (country.name.toLocaleLowerCase().indexOf(filterBy) !== -1));
+      
+    }
+    
+    if (filterByRegion != "allregion"){
+      return this.countries.filter((country: ICountry) =>
+      (country.region.toLocaleLowerCase().indexOf(filterByRegion) !== -1) && (country.name.toLocaleLowerCase().indexOf(filterBy) !== -1));
+      }
+  
+      
   }
 
-  //sample function to test component interaction
-  toggleImage(): void {
-   // this.showImage = !this.showImage;
-  }
 
   ngOnInit() :void {
 
