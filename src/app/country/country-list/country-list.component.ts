@@ -43,7 +43,7 @@ export class CountryListComponent implements OnInit {
   }
   set listFilter(value: string) {
     this._listFilter = value;
-    this.filteredCountries = this.listFilter ? this.performFilter(this.listFilter,this.listFilter_region) : this.countries;
+    this.filteredCountries = (this.listFilter || this.listFilter_region.toLocaleLowerCase() !="allregion" )? this.performFilter(this.listFilter,this.listFilter_region) : this.countries;
   }
 
   filteredCountries: ICountry[] = [];
