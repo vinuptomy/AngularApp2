@@ -2,7 +2,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
-import { FormsModule } from '@angular/forms'; 
+import { FormsModule } from '@angular/forms';
+
+
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatCardModule, MatButtonModule, MatSelectModule, MatIconModule,  MatFormFieldModule, MatInputModule,MatGridListModule } from '@angular/material';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -17,7 +21,16 @@ import { CountryModule } from './country/country.module';
     
   ],
   imports: [
+   
+     MatIconModule,
+     MatGridListModule, 
+     MatFormFieldModule, 
+      MatInputModule,
+    MatCardModule, 
+    MatButtonModule, 
+    MatSelectModule,
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
     HttpClientModule,    
     FormsModule,

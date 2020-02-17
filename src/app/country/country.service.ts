@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
-import { catchError, tap, map } from 'rxjs/operators';
+import { catchError, tap, map, take } from 'rxjs/operators';
 import { ICountry } from './country';
 
 
@@ -29,19 +29,26 @@ export class CountryService {
   getCountries(): Observable<ICountry[]> {
     return this.http.get<ICountry[]>(this.countryUrl)
       .pipe(
-        tap(data => console.log('All: ' + JSON.stringify(data))),
+       // tap(data => console.log('All: ' + JSON.stringify(data))),
         catchError(this.handleError)
       );
   }
 
-  getCountry(isoCode: string): Observable<ICountry | undefined> {
+   getCountry(isoCode: string): Observable<ICountry | undefined> {
     return this.getCountries()
       .pipe(
-        map((countries: ICountry[]) => countries.find(c => c.alpha3Code === isoCode))   
-    
-        
+        map((countries: ICountry[]) => countries.find(c => c.alpha3Code === isoCode)),
+             
+       tap(data => console.log('one country: ' + JSON.stringify(data))),            
+      catchError(this.handleError)
       );
   }
+
+
+
+
+
+
 
   private handleError(err: HttpErrorResponse) {
     // in a real case app, we  send the message to some remote logging infrastructure

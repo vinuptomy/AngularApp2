@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +8,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Country-List';
+
+  theme = 'my-light-theme';
+  constructor(
+    
+  ) {}
+
+  ngOnInit(): void {
+    //this.overlayContainer.themeclass = this.theme;
+  }
+
+  onThemeChange() {
+    //this.overlayContainer.themeClass = this.theme;
+  }
 }

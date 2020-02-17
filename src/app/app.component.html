@@ -1,12 +1,27 @@
+
+<div [class]="theme">
+
+
 <nav class='navbar navbar-expand navbar-light bg-light'>
     <a class='navbar-brand'>{{pageTitle}}</a>
     <ul class='nav nav-pills'>
       <li><a class='nav-link' routerLinkActive='active' [routerLink]="['/country']">Where in the world?</a></li>      
     </ul>
 </nav>
+<mat-card>
+  <mat-select placeholder="Theme" [(ngModel)]="theme"
+  (change)="onThemeChange()">
+    <mat-option value="my-light-theme">Light Theme</mat-option>
+    <mat-option value="my-dark-theme">Dark Theme</mat-option>
+  </mat-select>
+</mat-card>
+
 <div class='container'>
   <router-outlet></router-outlet>
 </div>
+
+</div>
+
 <!--
 
 <div> 

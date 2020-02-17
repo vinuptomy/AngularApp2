@@ -2,8 +2,19 @@ thead {
     color: #337AB7;
   }
 
+  .example-card {
+    max-width: 400px;
+  }
+  
+
   
   
   tr[ng-reflect-router-link] {
     cursor: pointer;
   }
+
+  mat-card[ng-reflect-router-link] {
+    cursor: pointer;
+  }
+
+    mat-card { width: 100%; height: 100%}

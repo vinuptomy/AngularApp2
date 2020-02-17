@@ -1,0 +1,14 @@
+$my-light-theme-primary: mat-palette($mat-indigo);
+$my-light-theme-accent: mat-palette($mat-teal);
+$my-light-theme-warn: mat-palette($mat-red);
+
+/*
+$my-light-theme-primary: mat-palette($mat-blue, 700, 900, 500);
+$my-light-theme-accent: mat-palette($mat-teal);
+$my-light-theme-warn: mat-palette($mat-red);
+ */
+$my-light-theme: mat-light-theme(
+    $my-light-theme-primary,
+    $my-light-theme-accent,
+    $my-light-theme-warn
+); 

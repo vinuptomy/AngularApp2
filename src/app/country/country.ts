@@ -12,6 +12,9 @@ export interface ICountry {
   population: number;
   borders: string[];
   nativeName: string; 
+  arrLanguages:string;
+  arrCurrencies:string;
+  arrborderCountries:string[];
 
   }
 
