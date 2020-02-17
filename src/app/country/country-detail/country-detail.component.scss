@@ -5,22 +5,27 @@
 }
 
 
-.card{
-margin-top:4%;
-border: none;
+.countrycontent{
+  margin-top:4%;
 }
 
-.contry-detail-rc{
-     margin-top: 2%;     
-     float:right;
+.country-detail-card {
+  max-width: 400px;
+  border:none !important;
 }
 
-
-  .card-picture {
-    width: 23%;
-    margin-bottom: 2%;
+  .material-icons{
+    vertical-align: middle;
   }
+
+  .mat-title
+{
+  font-size:x-large;
+text-align: left !important;
+
+}
+
+.country-detail-border-card{
   
-  .search-form {
-    width: 90%;
-  }
+}
+ 

@@ -10,10 +10,8 @@ import { CountryDetailComponent } from './country-detail/country-detail.componen
 
 
 @NgModule({
-  declarations: [
-    
-    CountryDetailComponent 
-    
+  declarations: [  
+        
   ],
   imports: [
     CommonModule,    
@@ -27,9 +25,8 @@ import { CountryDetailComponent } from './country-detail/country-detail.componen
     ]),
 
   ],
-  exports: [
+  exports: [   
     
-    CountryDetailComponent
   ]
 })
 export class CountryModule { }

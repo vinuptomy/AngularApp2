@@ -29,7 +29,7 @@
   <mat-grid-tile 
   *ngFor='let country of filteredCountries'>
 
-      <mat-card  class="example-card"
+      <mat-card  class="country-home-card"
       [routerLink]="['/country', country.alpha3Code]" >
         <img  mat-card-image  
          [src]="country.flag" [alt]="country.name">

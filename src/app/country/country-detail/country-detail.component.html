@@ -1,80 +1,74 @@
-<div class='card'
-     *ngIf='country'>
-  <div class='card-header'>
+<div class='content' >
+  <div class='detailpageheader' >   
 
-    <button class='btn btn-outline-secondary'
-            (click)='onBack()'
-            style='width:80px'>
-      <i class='fa fa-chevron-left'></i> Back
-    </button>
+   <button  mat-raised-button 
+    (click)='onBack()'>
+    <i class="material-icons">
+     arrow_back
+     </i>
+       Back
+   </button>
 
   </div>
+<div class="countrycontent">
+  
+    <mat-grid-list *ngIf='country' class="countryCardlist" cols="10" rowHeight="1:2.4" gutterSize="5px" >
 
-  <div class='card-body'>
-    <div class='row'>
-
-        <div class='col-md-4'>
-            <img class='center-block img-responsive'
+      <mat-grid-tile colspan="4">
+        <div >
+            <img class=''
                  [style.width.%]='100'
                  [style.margin.px]='2'
                  [src]='country.flag'
                  [title]='country.name'>
-          </div>
-
-      <div class='col-md-8 contry-detail-rc'>
-        <div class='row'>          
-          <div class='col-md-12'>{{country.name}}</div>         
         </div>
-        <div class='row'>
-          <div class='col-md-6'>ISO Code:</div>
-          <div class='col-md-6'>{{country.alpha3Code | uppercase }}</div>
-        </div>
-        <div class='row'>
-            <div class='col-md-6'>Capital:</div>
-            <div class='col-md-6'>{{country.capital}}</div>
-          </div>
-        <div class='row'>
-          <div class='col-md-6'>Region:</div>
-          <div class='col-md-6'>{{country.region}}</div>
-        </div>
-        <div class='row'>
-          <div class='col-md-6'>Subregion:</div>
-          <div class='col-md-6'>{{country.subregion}}</div>
-        </div>
-        <div class='row'>
-          <div class='col-md-6'>Native Name:</div>
-          <div class='col-md-6'>{{country.nativeName}}</div>
-        </div>    
-        
-        <div class='row'>
-          <div class='col-md-6'>Top level domain:</div>
-          <div class='col-md-6'>{{country.topLevelDomain}}</div>
-        </div>
+        </mat-grid-tile>
 
-        <div class='row'>
-            <div class='col-md-6'>Population:</div>
-            <div class='col-md-6'>{{country.population | number}}</div>
-          </div>   
 
-          <div class='row' >
-            <div class='col-md-6'>Languages:</div>
-            <div class='col-md-6'>{{country.arrLanguages}}</div>
-          </div>
+    <mat-grid-tile colspan="3">
+      <mat-card  class="country-detail-card" >
+      
+      <mat-card-content>
+        <div class="mat-title">{{ country.name }}</div>
+      <div class="mat-body">Native Name : {{country.nativeName}}</div> 
+      <div class="mat-body" >Population : {{country.population | number}}</div> 
+      <div class="mat-body">Region : {{country.region}}</div> 
+      <div class="mat-body">Sub Region : {{country.subregion}}</div> 
+      <div class="mat-body">Capital  : {{country.capital}}</div>
+    </mat-card-content>        
+    </mat-card>
+  
+    </mat-grid-tile>
 
-          <div class='row'>
-            <div class='col-md-6'>Currencies:</div>
-            <div class='col-md-6'>{{country.arrCurrencies}}</div>
-          </div>
-
-          <div class='row'>
-            <div class='col-md-6'>Borders:</div>
-            <div class='col-md-6'>{{country.borders}}</div>
-          </div>
-
-      </div>
-
+    <mat-grid-tile colspan="3">
+      
+      <mat-card  class="country-detail-card" >
+      <mat-card-content>
+      <div class="mat-body">Top Level Domain: : {{country.topLevelDomain}}</div> 
+      <div class="mat-body">Currencies : {{country.arrCurrencies}}</div> 
+      <div class="mat-body">Languages : {{country.arrLanguages}}</div> 
      
-    </div>
-  </div>
+    </mat-card-content>        
+  </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile colspan="4" ></mat-grid-tile>
+    <mat-grid-tile colspan="6" >
+      <mat-card  class="country-detail-border-card" >
+      <mat-card-content>  
+        <div class="subheading-2">Border Countries : 
+        <button  mat-raised-button   *ngFor='let border of country.borders' 
+        [routerLink]="['/country', border]" >   
+      {{border}}
+   </button>
+  </div> 
+      </mat-card-content>        
+    </mat-card>
+      </mat-grid-tile>
+  </mat-grid-list>
+
+
+</div>
+
+      
 
 </div>

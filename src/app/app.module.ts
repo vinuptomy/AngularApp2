@@ -11,13 +11,14 @@ import { MatCardModule, MatButtonModule, MatToolbarModule,MatSelectModule, MatIc
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CountryListComponent } from './country/country-list/country-list.component';
-
+import { CountryDetailComponent } from './country/country-detail/country-detail.component';
 import { CountryModule } from './country/country.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CountryListComponent
+    CountryListComponent,
+    CountryDetailComponent 
     
   ],
   imports: [

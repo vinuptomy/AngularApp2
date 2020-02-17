@@ -6,9 +6,11 @@
 @import './themes/my-light-theme';
 @import './themes/my-dark-theme';
 @import './app/country/country-list/country-list.component.scss.theme.scss';
+@import './app/country/country-detail/country-detail.component.scss.theme.scss';
 
 @mixin my-custom-components($theme) {
   @include app-country-list-theme($theme);
+  @include app-country-detail-theme($theme);
   /* ... */
 }
 
