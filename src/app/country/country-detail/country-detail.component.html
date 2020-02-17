@@ -44,7 +44,7 @@
       
       <mat-card  class="country-detail-card" >
       <mat-card-content>
-      <div class="mat-body">Top Level Domain: : {{country.topLevelDomain}}</div> 
+      <div class="mat-body">Top Level Domain: {{country.topLevelDomain}}</div> 
       <div class="mat-body">Currencies : {{country.arrCurrencies}}</div> 
       <div class="mat-body">Languages : {{country.arrLanguages}}</div> 
      
@@ -57,7 +57,7 @@
       <mat-card-content>  
         <div class="subheading-2">Border Countries : 
         <button  mat-raised-button   *ngFor='let border of country.borders' 
-        [routerLink]="['/country', border]" >   
+        [routerLink]="['/country/border', border]">   
       {{border}}
    </button>
   </div> 

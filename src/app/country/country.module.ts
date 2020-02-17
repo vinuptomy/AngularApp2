@@ -19,9 +19,14 @@ import { CountryDetailComponent } from './country-detail/country-detail.componen
     RouterModule.forChild([
       { path: 'country', component: CountryListComponent },
       {
+        path: 'country/border/:border',       
+        component: CountryDetailComponent
+      },
+      {
         path: 'country/:alpha3Code',       
         component: CountryDetailComponent
       }
+      
     ]),
 
   ],
